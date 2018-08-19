@@ -59,11 +59,15 @@ root@975268ed53dd:/DynamicFusionCore# xarclock
 Error: Can't open display: unixlocalhost:11.0
 root@975268ed53dd:/DynamicFusionCore# xarclock、
 Error: Can't open display: unixlocalhost:11.0
-# 失败了 
+证明了远程如果不开相关的端口，以及其他失败了 
 
 
 # 实践2   
-nvidia-docker run   --shm-size=8gb   -it    --net=host   -e DISPLAY=:10.0   -v $HOME/slides:/root/slides   -v $HOME/.Xauthority:/root/.Xauthority    -v `pwd`:/workspace 80f7d7e06019  
+nvidia-docker run   --shm-size=8gb   -it    --net=host   -e DISPLAY=:10.0   -v $HOME/slides:/root/slides   -v $HOME/.Xauthority:/root/.Xauthority    -v `pwd`:/workspace 80f7d7e06019   
+
+
+nvidia-docker run   --shm-size=8gb   -it    --net=host   -e DISPLAY=:10.0  -v $HOME/.Xauthority:/root/.Xauthority    -v `pwd`:/workspace 7fc9a8b440fc 
+
 
 xarclock: 可以display了。 
 
