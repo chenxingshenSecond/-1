@@ -10,7 +10,9 @@ docker run -d \
 --name libreoffice 
 jess/libreoffice
 
-开启docker图形话界面时候的指令，主要是： nvidia-docker run --shm-size=8gb -it -v pwd:/workspace -e DISPLAY=unix$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix 1240803839cgw/cuda_caffe:latest 开机需要执行 xhost +
+开启docker图形话界面时候的指令，主要是： nvidia-docker run --shm-size=8gb -it -v pwd:/workspace -e DISPLAY=unix$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix 1240803839cgw/cuda_caffe:latest
+
+开机需要执行 xhost +
 
 # 如果是远程的GUI显示 则需要进行额外的操作： 
 
@@ -34,11 +36,15 @@ docker run -d \
 testtest@hhh:~$ nvidia-docker run   --shm-size=8gb   -it   -v /tmp/.X11-unix:/tmp/.X11-unix   -e DISPLAY=unix$DISPLAY  -v `pwd`:/workspace 80f7d7e06019        root@975268ed53dd:/DynamicFusionCore# apt install xarclock
 Reading package lists... Done
 Building dependency tree
+
 Reading state information... Done
 The following NEW packages will be installed:
-  xarclock
+
+xarclock
+
 0 upgraded, 1 newly installed, 0 to remove and 147 not upgraded.
 Need to get 17.3 kB of archives.
+
 After this operation, 71.7 kB of additional disk space will be used.
 Get:1 http://archive.ubuntu.com/ubuntu xenial/universe amd64 xarclock amd64 1.0-13 [17.3 kB]
 Fetched 17.3 kB in 1s (15.5 kB/s)
@@ -60,7 +66,11 @@ Error: Can't open display: unixlocalhost:11.0
 nvidia-docker run   --shm-size=8gb   -it    --net=host   -e DISPLAY=:10.0   -v $HOME/slides:/root/slides   -v $HOME/.Xauthority:/root/.Xauthority    -v `pwd`:/workspace 80f7d7e06019  
 
 xarclock: 可以display了。 
+
 但是存在GPU和OpenGL 的问题
 
-有可能需要本地的OpenGL安装
+
+
+有可能需要本地的OpenGL安装、
+
 https://www.linuxidc.com/Linux/2017-03/141555.htm
