@@ -77,4 +77,8 @@ xarclock: 可以display了。
 
 有可能需要本地的OpenGL安装、
 
-https://www.linuxidc.com/Linux/2017-03/141555.htm
+https://www.linuxidc.com/Linux/2017-03/141555.htm   
+
+有效的东西： 
+
+nvidia-docker run   --shm-size=8gb   -it    --net=host   -e DISPLAY=:10.0  -v $HOME/.Xauthority:/root/.Xauthority    -v `pwd`:/workspace 7fc9a8b440fc
