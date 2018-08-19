@@ -51,7 +51,7 @@ Processing triggers for man-db (2.7.5-1) ...
 Setting up xarclock (1.0-13) ...
 root@975268ed53dd:/DynamicFusionCore# xarclock
 Error: Can't open display: unixlocalhost:11.0
-root@975268ed53dd:/DynamicFusionCore# xarclock
+root@975268ed53dd:/DynamicFusionCore# xarclock、
 Error: Can't open display: unixlocalhost:11.0
 # 失败了 
 
@@ -61,3 +61,6 @@ nvidia-docker run   --shm-size=8gb   -it    --net=host   -e DISPLAY=:10.0   -v $
 
 xarclock: 可以display了。 
 但是存在GPU和OpenGL 的问题
+
+有可能需要本地的OpenGL安装
+https://www.linuxidc.com/Linux/2017-03/141555.htm
