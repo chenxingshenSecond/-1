@@ -88,3 +88,13 @@ https://www.linuxidc.com/Linux/2017-03/141555.htm
 有效的东西： 
 
 nvidia-docker run   --shm-size=8gb   -it    --net=host   -e DISPLAY=:10.0  -v $HOME/.Xauthority:/root/.Xauthority    -v `pwd`:/workspace 7fc9a8b440fc
+
+
+sudo  nvidia-docker run   --shm-size=8gb   -it    --net=host   -e DISPLAY=:10.0  -v $HOME/.Xauthority:/root/.Xauthority    -v `pwd`:/workspace 7fc9a8b440fc
+
+记住需要在本地安装Xming, xhost + 和安装相关的东西 
+
+如果不是root用户可能adduser会有问题
+
+向容器里面拷贝东西： 
+sudo docker cp   data2/  4f12091a14e6:/DynamicFusionCore/
