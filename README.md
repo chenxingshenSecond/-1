@@ -98,3 +98,6 @@ sudo  nvidia-docker run   --shm-size=8gb   -it    --net=host   -e DISPLAY=:10.0 
 
 向容器里面拷贝东西： 
 sudo docker cp   data2/  4f12091a14e6:/DynamicFusionCore/
+
+add user to group  渐渐 
+https://blog.csdn.net/point0mine/article/details/79448402
