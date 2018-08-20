@@ -100,4 +100,7 @@ sudo  nvidia-docker run   --shm-size=8gb   -it    --net=host   -e DISPLAY=:10.0 
 sudo docker cp   data2/  4f12091a14e6:/DynamicFusionCore/
 
 add user to group  渐渐 
-https://blog.csdn.net/point0mine/article/details/79448402
+https://blog.csdn.net/point0mine/article/details/79448402 
+
+https://www.cnblogs.com/boshen-hzb/p/6373549.html
+
