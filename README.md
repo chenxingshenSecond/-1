@@ -6,6 +6,7 @@ https://mp.weixin.qq.com/s?__biz=MzI4MzAwNTQ3NQ==&mid=209866190&idx=1&sn=0ee7550
 https://apt.dockerproject.org/repo/pool/main/d/docker-engine/ 
 sudo dpkg -i ***.deb 
 
+及时绕过了这个墙 外面还有一层公司的不能连接dockerhub的问题。 
 
 sudo apt-get install x11-xserver-utils
 
