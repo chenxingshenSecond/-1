@@ -1,6 +1,6 @@
 # 在远程连接到可视化docker 
-
 https://mp.weixin.qq.com/s?__biz=MzI4MzAwNTQ3NQ==&mid=209866190&idx=1&sn=0ee75509eb2fab454009125e0a8c6437&scene=0#rd
+https://blog.csdn.net/ericcchen/article/details/79253416
 
 # 在不能连接到外网的服务器上，下面的网址下载deb来安装。 
 https://apt.dockerproject.org/repo/pool/main/d/docker-engine/ 
@@ -117,8 +117,12 @@ https://www.cnblogs.com/boshen-hzb/p/6373549.html
 # Docker容器和主机如何互相拷贝传输文件 
 https://blog.csdn.net/u011596455/article/details/76862271
 
+为ubuntu开启图形界面
+https://blog.csdn.net/qq_34450601/article/details/78300701
+https://blog.csdn.net/sunbaigui/article/details/6624110
+https://www.cnblogs.com/boyzgw/p/6610139.html
 
-On Wei Server : 
+# On Wei Server : 
 c00464489@ubuntu-arvr04:~$ sudo apt-get install docker-ce
 Reading package lists... Done
 Building dependency tree
@@ -138,6 +142,6 @@ Install these packages without verification? [y/N] y
 0% [Working]
 0% [Working]
 
-Shame on WE
+# Shame on WE
 
 
