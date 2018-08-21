@@ -144,4 +144,7 @@ Install these packages without verification? [y/N] y
 
 # Shame on WE
 
+# 在docker中一切都很快解决，什么min的问题之类的 
+可视化也完成了。 
+
 
