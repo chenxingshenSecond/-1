@@ -110,3 +110,27 @@ https://www.cnblogs.com/boshen-hzb/p/6373549.html
 # Docker容器和主机如何互相拷贝传输文件 
 https://blog.csdn.net/u011596455/article/details/76862271
 
+
+On Wei Server : 
+c00464489@ubuntu-arvr04:~$ sudo apt-get install docker-ce
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following extra packages will be installed:
+  aufs-tools cgroup-lite pigz
+The following NEW packages will be installed:
+  aufs-tools cgroup-lite docker-ce pigz
+0 upgraded, 4 newly installed, 0 to remove and 3 not upgraded.
+Need to get 39.8 MB/40.0 MB of archives.
+After this operation, 201 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+WARNING: The following packages cannot be authenticated!
+  docker-ce
+Install these packages without verification? [y/N] y
+0% [Working]
+0% [Working]
+0% [Working]
+
+Shame on WE
+
+
