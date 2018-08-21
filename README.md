@@ -1,4 +1,10 @@
+# 在远程连接到可视化docker 
+
 https://mp.weixin.qq.com/s?__biz=MzI4MzAwNTQ3NQ==&mid=209866190&idx=1&sn=0ee75509eb2fab454009125e0a8c6437&scene=0#rd
+
+# 在不能连接到外网的服务器上，下面的网址下载deb来安装。 
+https://apt.dockerproject.org/repo/pool/main/d/docker-engine/ 
+sudo dpkg -i ***.deb 
 
 
 sudo apt-get install x11-xserver-utils
