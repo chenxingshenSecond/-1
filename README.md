@@ -148,3 +148,10 @@ Install these packages without verification? [y/N] y
 可视化也完成了。 
 
 
+迅雷下载宝
+在Visual Studio一般默认有四种编译方式： 
+Debug, MinSizeRel, Release, RelWithDebInfo.
+
+在前面的博文中，曾经提到过我以前不太熟悉的一种编译方式RelWithDebInfo。该模式在保留Release模式下运行快速的前提下，又可以给特定的工程开启Debug模式，进行针对性的调试。这样比整个项目都采用Debug模式进行编译，在调试时会提高效率。
+
+
